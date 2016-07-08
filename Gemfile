@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
-
+# Needed to add this to finish assignment in week 5
+# The error message was:
+#The `div_for` method has been removed from Rails. To continue using it, add the `record_tag_helper` gem to your Gemfile:
+#  gem 'record_tag_helper', '~> 1.0'
+#Consult the Rails upgrade guide for details.
+gem 'record_tag_helper', '~> 1.0'
 # Annotate models
 gem 'annotate'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
